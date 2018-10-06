@@ -13,6 +13,18 @@
 		070DF48F2169453800885CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070DF48E2169453800885CAF /* Assets.xcassets */; };
 		070DF4922169453800885CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070DF4902169453800885CAF /* LaunchScreen.storyboard */; };
 		070DF49D2169453800885CAF /* PeekTwitterSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF49C2169453800885CAF /* PeekTwitterSearchTests.swift */; };
+		070DF4AA216945D400885CAF /* EndpointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF4A9216945D400885CAF /* EndpointType.swift */; };
+		070DF4AC216945EE00885CAF /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF4AB216945EE00885CAF /* Errors.swift */; };
+		070DF4AE2169460E00885CAF /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF4AD2169460E00885CAF /* HTTPMethod.swift */; };
+		070DF4B02169462700885CAF /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF4AF2169462700885CAF /* HTTPTask.swift */; };
+		070DF4B22169464200885CAF /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF4B12169464200885CAF /* NetworkRouter.swift */; };
+		070DF4B42169465800885CAF /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF4B32169465800885CAF /* Router.swift */; };
+		070DF4B72169512800885CAF /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF4B62169512800885CAF /* JSONParameterEncoder.swift */; };
+		070DF4B92169514100885CAF /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF4B82169514100885CAF /* ParameterEncoding.swift */; };
+		070DF4BB2169515C00885CAF /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF4BA2169515C00885CAF /* URLParameterEncoder.swift */; };
+		070DF4BE2169519600885CAF /* TwitterSearchEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF4BD2169519600885CAF /* TwitterSearchEndpoint.swift */; };
+		070DF4C1216951BE00885CAF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF4C0216951BE00885CAF /* NetworkManager.swift */; };
+		070DF4C4216951E900885CAF /* TweetSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070DF4C3216951E900885CAF /* TweetSearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,18 @@
 		070DF4982169453800885CAF /* PeekTwitterSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeekTwitterSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		070DF49C2169453800885CAF /* PeekTwitterSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeekTwitterSearchTests.swift; sourceTree = "<group>"; };
 		070DF49E2169453800885CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070DF4A9216945D400885CAF /* EndpointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointType.swift; sourceTree = "<group>"; };
+		070DF4AB216945EE00885CAF /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		070DF4AD2169460E00885CAF /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		070DF4AF2169462700885CAF /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		070DF4B12169464200885CAF /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		070DF4B32169465800885CAF /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		070DF4B62169512800885CAF /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		070DF4B82169514100885CAF /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		070DF4BA2169515C00885CAF /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		070DF4BD2169519600885CAF /* TwitterSearchEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterSearchEndpoint.swift; sourceTree = "<group>"; };
+		070DF4C0216951BE00885CAF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		070DF4C3216951E900885CAF /* TweetSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetSearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +101,7 @@
 		070DF4862169453600885CAF /* PeekTwitterSearch */ = {
 			isa = PBXGroup;
 			children = (
+				070DF4A72169459900885CAF /* Networking */,
 				070DF4872169453600885CAF /* AppDelegate.swift */,
 				070DF4892169453600885CAF /* ViewController.swift */,
 				070DF48B2169453600885CAF /* Main.storyboard */,
@@ -94,6 +119,65 @@
 				070DF49E2169453800885CAF /* Info.plist */,
 			);
 			path = PeekTwitterSearchTests;
+			sourceTree = "<group>";
+		};
+		070DF4A72169459900885CAF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				070DF4C2216951D700885CAF /* Model */,
+				070DF4BF216951AB00885CAF /* Manager */,
+				070DF4BC2169517A00885CAF /* Endpoint */,
+				070DF4B52169511400885CAF /* Encoding */,
+				070DF4A8216945AE00885CAF /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		070DF4A8216945AE00885CAF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				070DF4A9216945D400885CAF /* EndpointType.swift */,
+				070DF4AB216945EE00885CAF /* Errors.swift */,
+				070DF4AD2169460E00885CAF /* HTTPMethod.swift */,
+				070DF4AF2169462700885CAF /* HTTPTask.swift */,
+				070DF4B12169464200885CAF /* NetworkRouter.swift */,
+				070DF4B32169465800885CAF /* Router.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		070DF4B52169511400885CAF /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				070DF4B62169512800885CAF /* JSONParameterEncoder.swift */,
+				070DF4B82169514100885CAF /* ParameterEncoding.swift */,
+				070DF4BA2169515C00885CAF /* URLParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		070DF4BC2169517A00885CAF /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				070DF4BD2169519600885CAF /* TwitterSearchEndpoint.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		070DF4BF216951AB00885CAF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				070DF4C0216951BE00885CAF /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		070DF4C2216951D700885CAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				070DF4C3216951E900885CAF /* TweetSearchResult.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +281,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070DF4BE2169519600885CAF /* TwitterSearchEndpoint.swift in Sources */,
+				070DF4B42169465800885CAF /* Router.swift in Sources */,
+				070DF4BB2169515C00885CAF /* URLParameterEncoder.swift in Sources */,
+				070DF4C1216951BE00885CAF /* NetworkManager.swift in Sources */,
+				070DF4B02169462700885CAF /* HTTPTask.swift in Sources */,
+				070DF4B92169514100885CAF /* ParameterEncoding.swift in Sources */,
+				070DF4AC216945EE00885CAF /* Errors.swift in Sources */,
 				070DF48A2169453600885CAF /* ViewController.swift in Sources */,
 				070DF4882169453600885CAF /* AppDelegate.swift in Sources */,
+				070DF4B72169512800885CAF /* JSONParameterEncoder.swift in Sources */,
+				070DF4AE2169460E00885CAF /* HTTPMethod.swift in Sources */,
+				070DF4AA216945D400885CAF /* EndpointType.swift in Sources */,
+				070DF4C4216951E900885CAF /* TweetSearchResult.swift in Sources */,
+				070DF4B22169464200885CAF /* NetworkRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
