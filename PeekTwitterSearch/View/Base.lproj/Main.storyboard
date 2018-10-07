@@ -30,42 +30,49 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PK1-hr-3TE">
                                                     <rect key="frame" x="8" y="8" width="100" height="101.5"/>
+                                                    <color key="backgroundColor" red="0.96078431369999995" green="0.50980392159999999" blue="0.047058823530000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="blD-ux-9YC"/>
                                                     </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                 </imageView>
-                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SBf-tq-lXD">
-                                                    <rect key="frame" x="116" y="8" width="251" height="30"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vandanpatel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7aF-TA-4YN">
+                                                    <rect key="frame" x="116" y="8" width="251" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                     <nil key="textColor"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
-                                                </textField>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pgF-rj-hFl">
-                                                    <rect key="frame" x="116" y="46" width="251" height="63.5"/>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                </textView>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.59999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="NbR-F0-pt2">
+                                                    <rect key="frame" x="116" y="37" width="251" height="70"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment>
+                                                            <string key="content">Sneak peek at some of my #tcsnycmarathon training plan \n\nYesterday: Eat soup with a fork.\nToday: Eat soup with a fo… https://t.co/85gvHsPHjq</string>
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="7aF-TA-4YN" firstAttribute="leading" secondItem="PK1-hr-3TE" secondAttribute="trailing" constant="8" id="2fE-kI-Cec"/>
                                                 <constraint firstAttribute="bottom" secondItem="PK1-hr-3TE" secondAttribute="bottom" constant="8" id="3QK-TT-H8q"/>
-                                                <constraint firstItem="pgF-rj-hFl" firstAttribute="top" secondItem="SBf-tq-lXD" secondAttribute="bottom" constant="8" id="7bo-8s-YSV"/>
-                                                <constraint firstItem="SBf-tq-lXD" firstAttribute="leading" secondItem="PK1-hr-3TE" secondAttribute="trailing" constant="8" id="9jk-2t-0Pm"/>
-                                                <constraint firstAttribute="trailing" secondItem="SBf-tq-lXD" secondAttribute="trailing" constant="8" id="CaJ-hY-xe0"/>
-                                                <constraint firstItem="pgF-rj-hFl" firstAttribute="leading" secondItem="PK1-hr-3TE" secondAttribute="trailing" constant="8" id="DoZ-TB-ugS"/>
-                                                <constraint firstItem="pgF-rj-hFl" firstAttribute="bottom" secondItem="PK1-hr-3TE" secondAttribute="bottom" id="UPM-wg-g7W"/>
+                                                <constraint firstItem="7aF-TA-4YN" firstAttribute="top" secondItem="PK1-hr-3TE" secondAttribute="top" id="f1q-4a-J01"/>
                                                 <constraint firstItem="PK1-hr-3TE" firstAttribute="top" secondItem="fS7-yl-67J" secondAttribute="top" constant="8" id="fob-jN-zXy"/>
                                                 <constraint firstItem="PK1-hr-3TE" firstAttribute="leading" secondItem="fS7-yl-67J" secondAttribute="leading" constant="8" id="ong-7r-r7u"/>
-                                                <constraint firstItem="SBf-tq-lXD" firstAttribute="top" secondItem="fS7-yl-67J" secondAttribute="top" constant="8" id="wIS-QU-Tef"/>
-                                                <constraint firstAttribute="trailing" secondItem="pgF-rj-hFl" secondAttribute="trailing" constant="8" id="xYG-6K-Drj"/>
+                                                <constraint firstAttribute="trailing" secondItem="7aF-TA-4YN" secondAttribute="trailing" constant="8" id="pNt-XB-nYz"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <connections>
                                             <outlet property="profileImageView" destination="PK1-hr-3TE" id="uwQ-d6-YJp"/>
-                                            <outlet property="tweetTextView" destination="pgF-rj-hFl" id="Dd9-pu-32K"/>
-                                            <outlet property="usernameTextField" destination="SBf-tq-lXD" id="WE8-VT-3Ig"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

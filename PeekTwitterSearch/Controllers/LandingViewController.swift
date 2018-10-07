@@ -12,12 +12,18 @@ class LandingViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
 
-    var networkManager: NetworkManager?
     let cellIdentifier = "tweetCell"
     let tweetViewModel = [TweetViewModel]()
+    let networkManager = NetworkManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.tableFooterView = UIView()
+        networkManager.getPopularTweets(for: "Peek", and: .popular, nextResults: nil) { (tweetResult, error) in
+            if error != nil {
+
+            }
+        }
     }
 }
 
@@ -32,5 +38,12 @@ extension LandingViewController: UITableViewDataSource {
             return UITableViewCell()
         }
         return cell
+    }
+}
+
+// MARK: Tableview Delegate
+extension LandingViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 118.0
     }
 }

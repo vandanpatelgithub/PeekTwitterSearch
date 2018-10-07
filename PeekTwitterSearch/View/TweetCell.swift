@@ -15,10 +15,10 @@ class TweetCell: UITableViewCell {
     @IBOutlet weak var tweetTextView: UITextView!
 
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: aDecoder)
     }
 
-    var tweetViewModel: TweetViewModel {
+    var tweetViewModel: TweetViewModel! {
         didSet {
             profileImageView.image = tweetViewModel.profileImage
             usernameTextField.text = tweetViewModel.username

@@ -15,9 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        guard let landingVC = storyboard.instantiateViewController(withIdentifier: "LandingVC") as? LandingViewController else { return true }
-        landingVC.networkManager = NetworkManager()
         return true
     }
 
