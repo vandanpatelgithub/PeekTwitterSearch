@@ -43,7 +43,13 @@ extension TweetSearchAPI: EndPointType {
 
     var path: String? {
         switch self {
-        case .imageData, .popularTweets:
+        case let .popularTweets(_, _, nextResults):
+            if let next = nextResults, !next.isEmpty {
+                return "\(next)"
+            } else {
+                return nil
+            }
+        case .imageData:
             return nil
         }
     }

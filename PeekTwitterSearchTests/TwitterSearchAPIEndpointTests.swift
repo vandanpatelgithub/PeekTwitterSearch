@@ -14,10 +14,9 @@ class TwitterSearchAPIEndpointTests: XCTestCase {
     func testTwitterEndpointWithoutNext() {
         let endpoint = TweetSearchAPI.popularTweets(searchText: "Peek", resultType: .popular, nextResults: nil)
         XCTAssertEqual(endpoint.baseURL.absoluteString, "https://api.twitter.com/1.1/search/tweets.json")
-        XCTAssertEqual(endpoint.path, "?q=Peek&result_type=popular")
+        XCTAssertNil(endpoint.path)
         XCTAssertEqual(endpoint.httpMethod, .get)
-        XCTAssertEqual(endpoint.task, .request)
-        XCTAssertEqual(endpoint.headers, nil)
+        XCTAssertNotNil(endpoint.headers)
     }
 
     func testTwitterEndpointWithNext() {
@@ -28,7 +27,6 @@ class TwitterSearchAPIEndpointTests: XCTestCase {
         XCTAssertEqual(endpoint.baseURL.absoluteString, "https://api.twitter.com/1.1/search/tweets.json")
         XCTAssertEqual(endpoint.path, "?max_id=1047843021075763199&q=Peek&include_entities=1&result_type=popular")
         XCTAssertEqual(endpoint.httpMethod, .get)
-        XCTAssertEqual(endpoint.task, .request)
-        XCTAssertEqual(endpoint.headers, nil)
+        XCTAssertNotNil(endpoint.headers)
     }
 }
