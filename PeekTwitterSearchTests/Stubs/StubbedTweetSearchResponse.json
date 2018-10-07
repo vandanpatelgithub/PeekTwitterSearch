@@ -1,0 +1,2224 @@
+{
+    "statuses": [
+        {
+            "created_at": "Thu Oct 04 23:38:30 +0000 2018",
+            "id": 1047994399324495873,
+            "id_str": "1047994399324495873",
+            "text": "Watching #Venom this weekend? Stay through to the end for a special sneak peek at #SpiderVerse. 🕷 https://t.co/StXLXqhTvu",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "Venom",
+                        "indices": [
+                            9,
+                            15
+                        ]
+                    },
+                    {
+                        "text": "SpiderVerse",
+                        "indices": [
+                            82,
+                            94
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 1047937148547031040,
+                        "id_str": "1047937148547031040",
+                        "indices": [
+                            98,
+                            121
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DosHgKZVAAABDJ7.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DosHgKZVAAABDJ7.jpg",
+                        "url": "https://t.co/StXLXqhTvu",
+                        "display_url": "pic.twitter.com/StXLXqhTvu",
+                        "expanded_url": "https://twitter.com/SpiderVerse/status/1047994399324495873/video/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1195,
+                                "h": 1200,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1410,
+                                "h": 1416,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 677,
+                                "h": 680,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 1047937148547031040,
+                        "id_str": "1047937148547031040",
+                        "indices": [
+                            98,
+                            121
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DosHgKZVAAABDJ7.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DosHgKZVAAABDJ7.jpg",
+                        "url": "https://t.co/StXLXqhTvu",
+                        "display_url": "pic.twitter.com/StXLXqhTvu",
+                        "expanded_url": "https://twitter.com/SpiderVerse/status/1047994399324495873/video/1",
+                        "type": "video",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1195,
+                                "h": 1200,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1410,
+                                "h": 1416,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 677,
+                                "h": 680,
+                                "resize": "fit"
+                            }
+                        },
+                        "video_info": {
+                            "aspect_ratio": [
+                                1,
+                                1
+                            ],
+                            "duration_millis": 15057,
+                            "variants": [
+                                {
+                                    "bitrate": 832000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/amplify_video/1047937148547031040/vid/480x480/8isdTiZXHy1GOumF.mp4?tag=8"
+                                },
+                                {
+                                    "bitrate": 1280000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/amplify_video/1047937148547031040/vid/720x720/S35fkE4FQTyeopvg.mp4?tag=8"
+                                },
+                                {
+                                    "bitrate": 288000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/amplify_video/1047937148547031040/vid/240x240/8YAOHhl8528QQQYS.mp4?tag=8"
+                                },
+                                {
+                                    "content_type": "application/x-mpegURL",
+                                    "url": "https://video.twimg.com/amplify_video/1047937148547031040/pl/Up2xpusGXml1hbs-.m3u8?tag=8"
+                                }
+                            ]
+                        },
+                        "additional_media_info": {
+                            "title": "",
+                            "description": "",
+                            "embeddable": true,
+                            "monetizable": false
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "result_type": "popular",
+                "iso_language_code": "en"
+            },
+            "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Media Studio</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 928758856859000832,
+                "id_str": "928758856859000832",
+                "name": "Spider-Man: Into The Spider-Verse",
+                "screen_name": "SpiderVerse",
+                "location": "",
+                "description": "Spider-Man: Into The Spider-Verse, only in theaters Christmas 2018.",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 30447,
+                "friends_count": 10,
+                "listed_count": 128,
+                "created_at": "Thu Nov 09 22:59:01 +0000 2017",
+                "favourites_count": 1,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 19,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1047242875090526209/mRmL8A7n_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1047242875090526209/mRmL8A7n_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/928758856859000832/1538517165",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 960,
+            "favorite_count": 4409,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Thu Oct 04 22:17:00 +0000 2018",
+            "id": 1047973889588879360,
+            "id_str": "1047973889588879360",
+            "text": "This peek-a-boo pound cake is a spooky way to get in the mood for Halloween 🎃\nFULL RECIPE: https://t.co/uyTXyq1elu https://t.co/AT2JjgWBoR",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/uyTXyq1elu",
+                        "expanded_url": "https://tasty.co/recipe/peek-a-boo-ghost-boxed-pound-cake",
+                        "display_url": "tasty.co/recipe/peek-a-…",
+                        "indices": [
+                            91,
+                            114
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "id": 920687114236313600,
+                        "id_str": "920687114236313600",
+                        "indices": [
+                            115,
+                            138
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DMbwkZ8UIAAf_ut.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DMbwkZ8UIAAf_ut.jpg",
+                        "url": "https://t.co/AT2JjgWBoR",
+                        "display_url": "pic.twitter.com/AT2JjgWBoR",
+                        "expanded_url": "https://twitter.com/tasty/status/1047973889588879360/video/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 680,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1080,
+                                "h": 1080,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1080,
+                                "h": 1080,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 920687114236313600,
+                        "id_str": "920687114236313600",
+                        "indices": [
+                            115,
+                            138
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DMbwkZ8UIAAf_ut.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DMbwkZ8UIAAf_ut.jpg",
+                        "url": "https://t.co/AT2JjgWBoR",
+                        "display_url": "pic.twitter.com/AT2JjgWBoR",
+                        "expanded_url": "https://twitter.com/tasty/status/1047973889588879360/video/1",
+                        "type": "video",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 680,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1080,
+                                "h": 1080,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1080,
+                                "h": 1080,
+                                "resize": "fit"
+                            }
+                        },
+                        "video_info": {
+                            "aspect_ratio": [
+                                1,
+                                1
+                            ],
+                            "duration_millis": 75033,
+                            "variants": [
+                                {
+                                    "bitrate": 832000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/amplify_video/920687114236313600/vid/480x480/qHs9P1xm94QNlbSR.mp4"
+                                },
+                                {
+                                    "bitrate": 1280000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/amplify_video/920687114236313600/vid/720x720/D84hlgN4542yiL0n.mp4"
+                                },
+                                {
+                                    "content_type": "application/x-mpegURL",
+                                    "url": "https://video.twimg.com/amplify_video/920687114236313600/pl/S9aVtgONwaYYt-iE.m3u8"
+                                },
+                                {
+                                    "bitrate": 320000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/amplify_video/920687114236313600/vid/240x240/LoQtd3KGcuoZgTTC.mp4"
+                                }
+                            ]
+                        },
+                        "additional_media_info": {
+                            "title": "",
+                            "description": "",
+                            "call_to_actions": {
+                                "visit_site": {
+                                    "url": "https://tasty.co/recipe/peek-a-boo-ghost-boxed-pound-caket"
+                                }
+                            },
+                            "embeddable": true,
+                            "monetizable": true
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "result_type": "popular",
+                "iso_language_code": "en"
+            },
+            "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Media Studio</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 4020532937,
+                "id_str": "4020532937",
+                "name": "Tasty",
+                "screen_name": "tasty",
+                "location": "Full Recipes:",
+                "description": "Shop the BRAND NEW Tasty Kitchenware line here 👉: https://t.co/0dPSuobra7 (pssst - we may make $$$ if you buy)\nDownload the app: https://t.co/DhqNWKbOGM",
+                "url": "https://t.co/DhqNWJUdic",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/DhqNWJUdic",
+                                "expanded_url": "http://tstyapp.com/m/RhOdq2gC3E",
+                                "display_url": "tstyapp.com/m/RhOdq2gC3E",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/0dPSuobra7",
+                                "expanded_url": "http://bit.ly/2FhRg5Z",
+                                "display_url": "bit.ly/2FhRg5Z",
+                                "indices": [
+                                    50,
+                                    73
+                                ]
+                            },
+                            {
+                                "url": "https://t.co/DhqNWKbOGM",
+                                "expanded_url": "http://tstyapp.com/m/RhOdq2gC3E",
+                                "display_url": "tstyapp.com/m/RhOdq2gC3E",
+                                "indices": [
+                                    129,
+                                    152
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 810948,
+                "friends_count": 110,
+                "listed_count": 2658,
+                "created_at": "Fri Oct 23 00:29:41 +0000 2015",
+                "favourites_count": 2226,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 4561,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/887725624105738240/enrb4x3-_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/887725624105738240/enrb4x3-_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/4020532937/1520423599",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 314,
+            "favorite_count": 947,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Thu Oct 04 23:50:08 +0000 2018",
+            "id": 1047997330060972033,
+            "id_str": "1047997330060972033",
+            "text": "Open your eyez wide, Z-Whackerz, because we got a Season 5 sneak peek for you!\n\nSee what happenz FRIDAY at 9/8c on… https://t.co/DjHLVHsDms",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/DjHLVHsDms",
+                        "expanded_url": "https://twitter.com/i/web/status/1047997330060972033",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            116,
+                            139
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "result_type": "popular",
+                "iso_language_code": "en"
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 2460082981,
+                "id_str": "2460082981",
+                "name": "Z Nation",
+                "screen_name": "znation",
+                "location": "Z Nation",
+                "description": "It feelz good to be alive. #ZNation Season 5 premieres October 5 on @SYFY. Catch up on old seasonz anytime on @netflix.",
+                "url": "https://t.co/Hc4kAKjCGY",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/Hc4kAKjCGY",
+                                "expanded_url": "http://www.syfy.com/znation",
+                                "display_url": "syfy.com/znation",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 68128,
+                "friends_count": 442,
+                "listed_count": 355,
+                "created_at": "Wed Apr 23 18:20:59 +0000 2014",
+                "favourites_count": 12339,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 15108,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "131516",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1044353735370133504/zcwDpNwQ_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1044353735370133504/zcwDpNwQ_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2460082981/1537896820",
+                "profile_link_color": "009999",
+                "profile_sidebar_border_color": "EEEEEE",
+                "profile_sidebar_fill_color": "EFEFEF",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 253,
+            "favorite_count": 771,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Thu Oct 04 18:16:33 +0000 2018",
+            "id": 1047913379870863360,
+            "id_str": "1047913379870863360",
+            "text": "WHO YA GONNA CALL?! 💚👻 First look at our Ghostbusters set! For more, and to have a peek at some slimier photos:… https://t.co/bWy1ftg9c6",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/bWy1ftg9c6",
+                        "expanded_url": "https://twitter.com/i/web/status/1047913379870863360",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            113,
+                            136
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "result_type": "popular",
+                "iso_language_code": "en"
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 408328567,
+                "id_str": "408328567",
+                "name": "Darshelle Stevens",
+                "screen_name": "Darshelle_",
+                "location": "🌌",
+                "description": "Hopeless Creative || Photographer at @FilthyCasualCo || https://t.co/BbY55deGJB || Let’s chase our dreams together...",
+                "url": "https://t.co/sLxbYqus7j",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/sLxbYqus7j",
+                                "expanded_url": "http://www.patreon.com/darshellestevens",
+                                "display_url": "patreon.com/darshellesteve…",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/BbY55deGJB",
+                                "expanded_url": "http://www.twitch.tv/darshellestevens",
+                                "display_url": "twitch.tv/darshellesteve…",
+                                "indices": [
+                                    56,
+                                    79
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 84486,
+                "friends_count": 421,
+                "listed_count": 333,
+                "created_at": "Wed Nov 09 08:40:43 +0000 2011",
+                "favourites_count": 47398,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 16039,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "131516",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1021539449107144704/U_1h3Cnw_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1021539449107144704/U_1h3Cnw_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/408328567/1515405763",
+                "profile_link_color": "9266CC",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 217,
+            "favorite_count": 3307,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Thu Oct 04 17:21:49 +0000 2018",
+            "id": 1047899603146760192,
+            "id_str": "1047899603146760192",
+            "text": "Bringing the heat. \n\nGet a sneak peek at the Jordan 2018 Holiday Collection. https://t.co/XmYloKDqHl",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/XmYloKDqHl",
+                        "expanded_url": "https://cards.twitter.com/cards/3agqp0/6apue",
+                        "display_url": "cards.twitter.com/cards/3agqp0/6…",
+                        "indices": [
+                            77,
+                            100
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "result_type": "popular",
+                "iso_language_code": "en"
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 198975780,
+                "id_str": "198975780",
+                "name": "Jordan",
+                "screen_name": "Jumpman23",
+                "location": "",
+                "description": "JUMPMAN.",
+                "url": "https://t.co/khbd6TxFzL",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/khbd6TxFzL",
+                                "expanded_url": "http://Jordan.com",
+                                "display_url": "Jordan.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 3621756,
+                "friends_count": 140,
+                "listed_count": 5826,
+                "created_at": "Tue Oct 05 18:27:05 +0000 2010",
+                "favourites_count": 3770,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 9344,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "050505",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/956325201054113792/MLcVGcjo_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/956325201054113792/MLcVGcjo_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/198975780/1537499400",
+                "profile_link_color": "FF374D",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "F5F5F5",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 271,
+            "favorite_count": 1341,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Thu Oct 04 21:34:00 +0000 2018",
+            "id": 1047963070721609729,
+            "id_str": "1047963070721609729",
+            "text": "This year’s online BlizzCon merch sale opens to BlizzCon ticket holders and Virtual Ticket holders starting October… https://t.co/JgH1drdgFD",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/JgH1drdgFD",
+                        "expanded_url": "https://twitter.com/i/web/status/1047963070721609729",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "result_type": "popular",
+                "iso_language_code": "en"
+            },
+            "source": "<a href=\"https://prod1.sprinklr.com\" rel=\"nofollow\">Sprinklr Prod1</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 331908924,
+                "id_str": "331908924",
+                "name": "Blizzard Entertainment",
+                "screen_name": "Blizzard_Ent",
+                "location": "Irvine, CA",
+                "description": "Titles shown rated T-M. For more information, visit https://t.co/Vcih7pDaQo. \n\n@BlizzardCS for support / @BlizzardCareers for life at Blizzard",
+                "url": "https://t.co/0hFOzeztnR",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/0hFOzeztnR",
+                                "expanded_url": "http://Blizzard.com",
+                                "display_url": "Blizzard.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/Vcih7pDaQo",
+                                "expanded_url": "http://ESRB.org",
+                                "display_url": "ESRB.org",
+                                "indices": [
+                                    52,
+                                    75
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 1144572,
+                "friends_count": 193,
+                "listed_count": 3359,
+                "created_at": "Fri Jul 08 22:31:26 +0000 2011",
+                "favourites_count": 8282,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 6805,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "011320",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/757600627446812672/9gkNoWjq_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/757600627446812672/9gkNoWjq_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/331908924/1536856353",
+                "profile_link_color": "327C5B",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "011623",
+                "profile_text_color": "7EADC1",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 80,
+            "favorite_count": 439,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Fri Oct 05 01:42:07 +0000 2018",
+            "id": 1048025510725353472,
+            "id_str": "1048025510725353472",
+            "text": ".@MackenzieFoy surprises guests at @Disneyland Resort today! Check out #DisneysNutcracker and the Four Realms sneak… https://t.co/Wjl2fznVbh",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "DisneysNutcracker",
+                        "indices": [
+                            71,
+                            89
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "mackenziefoy",
+                        "name": "Mackenzie Foy",
+                        "id": 618481357,
+                        "id_str": "618481357",
+                        "indices": [
+                            1,
+                            14
+                        ]
+                    },
+                    {
+                        "screen_name": "Disneyland",
+                        "name": "Disneyland Resort",
+                        "id": 12378512,
+                        "id_str": "12378512",
+                        "indices": [
+                            35,
+                            46
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/Wjl2fznVbh",
+                        "expanded_url": "https://twitter.com/i/web/status/1048025510725353472",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "result_type": "popular",
+                "iso_language_code": "en"
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 36947388,
+                "id_str": "36947388",
+                "name": "Walt Disney Studios",
+                "screen_name": "DisneyStudios",
+                "location": "Los Angeles, CA",
+                "description": "The official Twitter for Walt Disney Studios where we can share news, videos, pics, and more from upcoming films with our fans!",
+                "url": "https://t.co/7qW3qQl2VJ",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/7qW3qQl2VJ",
+                                "expanded_url": "http://www.facebook.com/WaltDisneyStudios",
+                                "display_url": "facebook.com/WaltDisneyStud…",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 4994079,
+                "friends_count": 307,
+                "listed_count": 12734,
+                "created_at": "Fri May 01 13:59:15 +0000 2009",
+                "favourites_count": 1310,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 9356,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "011640",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1016849978642186240/_AbJ7V5b_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1016849978642186240/_AbJ7V5b_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/36947388/1536080778",
+                "profile_link_color": "FF0015",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "55BFE6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 129,
+            "favorite_count": 1079,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Fri Oct 05 19:00:00 +0000 2018",
+            "id": 1048286701133746177,
+            "id_str": "1048286701133746177",
+            "text": "As part of our new campaign to tackle hate crime with @policescotland here's a wee sneak peek of a special video we… https://t.co/s58yYRNHFi",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "policescotland",
+                        "name": "Police Scotland",
+                        "id": 254060179,
+                        "id_str": "254060179",
+                        "indices": [
+                            54,
+                            69
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/s58yYRNHFi",
+                        "expanded_url": "https://twitter.com/i/web/status/1048286701133746177",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "result_type": "popular",
+                "iso_language_code": "en"
+            },
+            "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Media Studio</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 46650770,
+                "id_str": "46650770",
+                "name": "Scottish Government",
+                "screen_name": "scotgov",
+                "location": "Scotland",
+                "description": "Updates from the devolved government for Scotland.",
+                "url": "https://t.co/lvplAktFsH",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/lvplAktFsH",
+                                "expanded_url": "http://www.gov.scot/",
+                                "display_url": "gov.scot",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 125333,
+                "friends_count": 1041,
+                "listed_count": 1230,
+                "created_at": "Fri Jun 12 13:29:52 +0000 2009",
+                "favourites_count": 312,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 13559,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "2D5091",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/879331725976973312/VcfzQ5hu_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/879331725976973312/VcfzQ5hu_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/46650770/1524225069",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "BDDCAD",
+                "profile_sidebar_fill_color": "DDFFCC",
+                "profile_text_color": "333333",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 97,
+            "favorite_count": 143,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Fri Oct 05 16:14:04 +0000 2018",
+            "id": 1048244943158951937,
+            "id_str": "1048244943158951937",
+            "text": "So excited for my new book Cook Like a Pro to come out on October 23rd!  Here’s a little sneak peek - I hope you lo… https://t.co/7upp9BF6hW",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/7upp9BF6hW",
+                        "expanded_url": "https://twitter.com/i/web/status/1048244943158951937",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "result_type": "popular",
+                "iso_language_code": "en"
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 463204825,
+                "id_str": "463204825",
+                "name": "Ina Garten",
+                "screen_name": "inagarten",
+                "location": "East Hampton, New York",
+                "description": "Ina Garten is the author of the Barefoot Contessa cookbooks and host of Barefoot Contessa on Food Network.",
+                "url": "http://t.co/NsfCh1PVrH",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/NsfCh1PVrH",
+                                "expanded_url": "http://www.barefootcontessa.com",
+                                "display_url": "barefootcontessa.com",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 156733,
+                "friends_count": 17,
+                "listed_count": 1006,
+                "created_at": "Fri Jan 13 21:05:14 +0000 2012",
+                "favourites_count": 7,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 349,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/2171034744/TW-Avatar_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/2171034744/TW-Avatar_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/463204825/1537813863",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 82,
+            "favorite_count": 843,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Fri Oct 05 20:30:36 +0000 2018",
+            "id": 1048309502582214656,
+            "id_str": "1048309502582214656",
+            "text": "Here's a sneak peek of an all-new Rise of the #TMNT episode, straight from Comic Con! https://t.co/WVi33kPOH9",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "TMNT",
+                        "indices": [
+                            46,
+                            51
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 1048309449281208320,
+                        "id_str": "1048309449281208320",
+                        "indices": [
+                            86,
+                            109
+                        ],
+                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1048309449281208320/pu/img/uing_xC5Fwpb8AZV.jpg",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1048309449281208320/pu/img/uing_xC5Fwpb8AZV.jpg",
+                        "url": "https://t.co/WVi33kPOH9",
+                        "display_url": "pic.twitter.com/WVi33kPOH9",
+                        "expanded_url": "https://twitter.com/TMNT/status/1048309502582214656/video/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 675,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 383,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1280,
+                                "h": 720,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 1048309449281208320,
+                        "id_str": "1048309449281208320",
+                        "indices": [
+                            86,
+                            109
+                        ],
+                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1048309449281208320/pu/img/uing_xC5Fwpb8AZV.jpg",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1048309449281208320/pu/img/uing_xC5Fwpb8AZV.jpg",
+                        "url": "https://t.co/WVi33kPOH9",
+                        "display_url": "pic.twitter.com/WVi33kPOH9",
+                        "expanded_url": "https://twitter.com/TMNT/status/1048309502582214656/video/1",
+                        "type": "video",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 675,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 383,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1280,
+                                "h": 720,
+                                "resize": "fit"
+                            }
+                        },
+                        "video_info": {
+                            "aspect_ratio": [
+                                16,
+                                9
+                            ],
+                            "duration_millis": 91717,
+                            "variants": [
+                                {
+                                    "bitrate": 256000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/1048309449281208320/pu/vid/320x180/KpcokjPbr-YSvtg6.mp4?tag=5"
+                                },
+                                {
+                                    "bitrate": 2176000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/1048309449281208320/pu/vid/1280x720/3l-0Vg7vwi674of0.mp4?tag=5"
+                                },
+                                {
+                                    "bitrate": 832000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/1048309449281208320/pu/vid/640x360/pW83BsNkQyXa_AJZ.mp4?tag=5"
+                                },
+                                {
+                                    "content_type": "application/x-mpegURL",
+                                    "url": "https://video.twimg.com/ext_tw_video/1048309449281208320/pu/pl/17nsnEUe41hmfJSR.m3u8?tag=5"
+                                }
+                            ]
+                        },
+                        "additional_media_info": {
+                            "monetizable": false
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "result_type": "popular",
+                "iso_language_code": "en"
+            },
+            "source": "<a href=\"https://www.spredfast.com/\" rel=\"nofollow\">Spredfast app</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 262296989,
+                "id_str": "262296989",
+                "name": "TMNT",
+                "screen_name": "TMNT",
+                "location": "New York, NY",
+                "description": "From classic to current, the OFFICIAL Teenage Mutant Ninja Turtles account, as reported from inside the walls of Nickelodeon.",
+                "url": "https://t.co/hed48Pwkdq",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/hed48Pwkdq",
+                                "expanded_url": "http://www.nick.com/tmnt",
+                                "display_url": "nick.com/tmnt",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 47443,
+                "friends_count": 194,
+                "listed_count": 280,
+                "created_at": "Mon Mar 07 19:41:26 +0000 2011",
+                "favourites_count": 2850,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 12877,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "3C4042",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/974730683087249408/JgFEVnn6_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/974730683087249408/JgFEVnn6_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/262296989/1538419753",
+                "profile_link_color": "41A82F",
+                "profile_sidebar_border_color": "BDE8B1",
+                "profile_sidebar_fill_color": "BBC3C7",
+                "profile_text_color": "3C6E42",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 133,
+            "favorite_count": 360,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Thu Oct 04 17:45:00 +0000 2018",
+            "id": 1047905438665252864,
+            "id_str": "1047905438665252864",
+            "text": "When the White House has more turnover than a pastry... Sneak a peek at tonight's new episode of #MurphyBrown and t… https://t.co/ou69e9Wvew",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "MurphyBrown",
+                        "indices": [
+                            97,
+                            109
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/ou69e9Wvew",
+                        "expanded_url": "https://twitter.com/i/web/status/1047905438665252864",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "result_type": "popular",
+                "iso_language_code": "en"
+            },
+            "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Media Studio</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 956285532622827527,
+                "id_str": "956285532622827527",
+                "name": "Murphy Brown",
+                "screen_name": "MurphyBrownCBS",
+                "location": "",
+                "description": "The official Twitter page for #MurphyBrown Thursdays at 9:30/8:30c on @CBS!",
+                "url": "https://t.co/klYzqpPlA4",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/klYzqpPlA4",
+                                "expanded_url": "https://www.cbs.com/shows/murphy-brown/",
+                                "display_url": "cbs.com/shows/murphy-b…",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 16174,
+                "friends_count": 8,
+                "listed_count": 75,
+                "created_at": "Wed Jan 24 22:00:12 +0000 2018",
+                "favourites_count": 827,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 404,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/996015221830373376/Ik8BGraD_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/996015221830373376/Ik8BGraD_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/956285532622827527/1538111305",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 72,
+            "favorite_count": 414,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Thu Oct 04 20:56:31 +0000 2018",
+            "id": 1047953637568385025,
+            "id_str": "1047953637568385025",
+            "text": "Sneak peek of tomorrow's @AF_Academy Combat Search &amp; Rescue Demonstration! 💯 https://t.co/8yHLzJdAAr",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "AF_Academy",
+                        "name": "USAFA (Official)",
+                        "id": 69073724,
+                        "id_str": "69073724",
+                        "indices": [
+                            25,
+                            36
+                        ]
+                    }
+                ],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 1047945608869203973,
+                        "id_str": "1047945608869203973",
+                        "indices": [
+                            81,
+                            104
+                        ],
+                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1047945608869203973/pu/img/UDk_ETFwvxNdbq1y.jpg",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1047945608869203973/pu/img/UDk_ETFwvxNdbq1y.jpg",
+                        "url": "https://t.co/8yHLzJdAAr",
+                        "display_url": "pic.twitter.com/8yHLzJdAAr",
+                        "expanded_url": "https://twitter.com/AF_Academy/status/1047953637568385025/video/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 675,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 383,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1280,
+                                "h": 720,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 1047945608869203973,
+                        "id_str": "1047945608869203973",
+                        "indices": [
+                            81,
+                            104
+                        ],
+                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1047945608869203973/pu/img/UDk_ETFwvxNdbq1y.jpg",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1047945608869203973/pu/img/UDk_ETFwvxNdbq1y.jpg",
+                        "url": "https://t.co/8yHLzJdAAr",
+                        "display_url": "pic.twitter.com/8yHLzJdAAr",
+                        "expanded_url": "https://twitter.com/AF_Academy/status/1047953637568385025/video/1",
+                        "type": "video",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 675,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 383,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1280,
+                                "h": 720,
+                                "resize": "fit"
+                            }
+                        },
+                        "video_info": {
+                            "aspect_ratio": [
+                                16,
+                                9
+                            ],
+                            "duration_millis": 40040,
+                            "variants": [
+                                {
+                                    "bitrate": 832000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/1047945608869203973/pu/vid/640x360/fvVn2MQG3p4T_0dR.mp4?tag=5"
+                                },
+                                {
+                                    "bitrate": 2176000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/1047945608869203973/pu/vid/1280x720/qmq_ksXbNmeZkLbn.mp4?tag=5"
+                                },
+                                {
+                                    "content_type": "application/x-mpegURL",
+                                    "url": "https://video.twimg.com/ext_tw_video/1047945608869203973/pu/pl/U3BhRDjpinSc6cwT.m3u8?tag=5"
+                                },
+                                {
+                                    "bitrate": 256000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/1047945608869203973/pu/vid/320x180/tPPDwBBsgyovQn3R.mp4?tag=5"
+                                }
+                            ]
+                        },
+                        "additional_media_info": {
+                            "monetizable": false
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "result_type": "popular",
+                "iso_language_code": "en"
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 69073724,
+                "id_str": "69073724",
+                "name": "USAFA (Official)",
+                "screen_name": "AF_Academy",
+                "location": "US Air Force Academy",
+                "description": "To educate, train and inspire men and women to become officers of character, motivated to lead the U.S. Air Force in service to our nation.",
+                "url": "https://t.co/WLFPo9UNjp",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/WLFPo9UNjp",
+                                "expanded_url": "http://www.usafa.edu",
+                                "display_url": "usafa.edu",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 70182,
+                "friends_count": 454,
+                "listed_count": 451,
+                "created_at": "Wed Aug 26 19:39:44 +0000 2009",
+                "favourites_count": 4740,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 9614,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "FFFFFF",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/801517346930114560/YUJiRErP_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/801517346930114560/YUJiRErP_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/69073724/1504899477",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "0047E0",
+                "profile_sidebar_fill_color": "D5D6D9",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 85,
+            "favorite_count": 296,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Fri Oct 05 03:08:23 +0000 2018",
+            "id": 1048047221130682371,
+            "id_str": "1048047221130682371",
+            "text": "#WWESSD gear sneak peek https://t.co/8R2iFVMZlk",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "WWESSD",
+                        "indices": [
+                            0,
+                            7
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 1048047207956459521,
+                        "id_str": "1048047207956459521",
+                        "indices": [
+                            24,
+                            47
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DotpYgIVsAEXwwh.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DotpYgIVsAEXwwh.jpg",
+                        "url": "https://t.co/8R2iFVMZlk",
+                        "display_url": "pic.twitter.com/8R2iFVMZlk",
+                        "expanded_url": "https://twitter.com/HEELZiggler/status/1048047221130682371/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1536,
+                                "h": 2048,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 900,
+                                "h": 1200,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 510,
+                                "h": 680,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 1048047207956459521,
+                        "id_str": "1048047207956459521",
+                        "indices": [
+                            24,
+                            47
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DotpYgIVsAEXwwh.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DotpYgIVsAEXwwh.jpg",
+                        "url": "https://t.co/8R2iFVMZlk",
+                        "display_url": "pic.twitter.com/8R2iFVMZlk",
+                        "expanded_url": "https://twitter.com/HEELZiggler/status/1048047221130682371/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1536,
+                                "h": 2048,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 900,
+                                "h": 1200,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 510,
+                                "h": 680,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "result_type": "popular",
+                "iso_language_code": "en"
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 105251590,
+                "id_str": "105251590",
+                "name": "Dolph Ziggler",
+                "screen_name": "HEELZiggler",
+                "location": "Bikini Bottom, TRANSYLVANIA...",
+                "description": "stand up comic.\ni wrestle to pay the bills. \noh & former WWE World Heavyweight Champion (again) whatevs",
+                "url": "http://t.co/DVxAbj1K6q",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/DVxAbj1K6q",
+                                "expanded_url": "http://instagram.com/HEELZiggler",
+                                "display_url": "instagram.com/HEELZiggler",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 2793558,
+                "friends_count": 1855,
+                "listed_count": 6886,
+                "created_at": "Fri Jan 15 20:47:11 +0000 2010",
+                "favourites_count": 26224,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 31595,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "131516",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/378800000338448759/04f414cc9d4c74acb58205772614469b_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000338448759/04f414cc9d4c74acb58205772614469b_normal.jpeg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/105251590/1373983511",
+                "profile_link_color": "009999",
+                "profile_sidebar_border_color": "EEEEEE",
+                "profile_sidebar_fill_color": "EFEFEF",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 104,
+            "favorite_count": 1007,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Thu Oct 04 17:02:51 +0000 2018",
+            "id": 1047894832130215942,
+            "id_str": "1047894832130215942",
+            "text": "Oh, Sassenachs, wait til you get a peek of these. #OutlanderS4  https://t.co/c8vPrcKNqJ",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "OutlanderS4",
+                        "indices": [
+                            50,
+                            62
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/c8vPrcKNqJ",
+                        "expanded_url": "https://ew.com/tv/outlander-exclusive-portraits",
+                        "display_url": "ew.com/tv/outlander-e…",
+                        "indices": [
+                            64,
+                            87
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "result_type": "popular",
+                "iso_language_code": "en"
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 22717893,
+                "id_str": "22717893",
+                "name": "Lynette Rice",
+                "screen_name": "Lynetterice",
+                "location": "Los Angeles",
+                "description": "Editor at Large for Entertainment Weekly, host of Outlander Live! on EW Radio, and Chasing Emmy podcast. I mow my own lawn.",
+                "url": "https://t.co/2i2I2TcKwk",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/2i2I2TcKwk",
+                                "expanded_url": "http://www.ew.com",
+                                "display_url": "ew.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 26104,
+                "friends_count": 4636,
+                "listed_count": 466,
+                "created_at": "Wed Mar 04 02:05:53 +0000 2009",
+                "favourites_count": 13220,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 15644,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1048293074768748549/_FJc94zy_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1048293074768748549/_FJc94zy_normal.jpg",
+                "profile_link_color": "3B94D9",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 105,
+            "favorite_count": 510,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Thu Oct 04 13:36:58 +0000 2018",
+            "id": 1047843021075763200,
+            "id_str": "1047843021075763200",
+            "text": "Sneak peek at some of my #tcsnycmarathon training plan \n\nYesterday: Eat soup with a fork.\nToday: Eat soup with a fo… https://t.co/85gvHsPHjq",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "tcsnycmarathon",
+                        "indices": [
+                            25,
+                            40
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/85gvHsPHjq",
+                        "expanded_url": "https://twitter.com/i/web/status/1047843021075763200",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "result_type": "popular",
+                "iso_language_code": "en"
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 293270094,
+                "id_str": "293270094",
+                "name": "des_linden",
+                "screen_name": "des_linden",
+                "location": "Charlevoix, MI",
+                "description": "201∞ Boston Marathon Champion. 2xUS Olympian. Coffee aficionado @CoffeeByLT. Whiskey connoisseur. Music junkie. Book nerd. Travel enthusiast.",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 58947,
+                "friends_count": 312,
+                "listed_count": 635,
+                "created_at": "Thu May 05 01:53:26 +0000 2011",
+                "favourites_count": 13464,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 2227,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/989930520971743232/bsQ4Kyhy_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/989930520971743232/bsQ4Kyhy_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/293270094/1524058231",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": {
+                "id": "2e283e4a840f8378",
+                "url": "https://api.twitter.com/1.1/geo/id/2e283e4a840f8378.json",
+                "place_type": "city",
+                "name": "Charlevoix",
+                "full_name": "Charlevoix, MI",
+                "country_code": "US",
+                "country": "United States",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -85.2870547,
+                                45.272413
+                            ],
+                            [
+                                -85.21537,
+                                45.272413
+                            ],
+                            [
+                                -85.21537,
+                                45.3455403
+                            ],
+                            [
+                                -85.2870547,
+                                45.3455403
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {}
+            },
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 70,
+            "favorite_count": 976,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        }
+    ],
+    "search_metadata": {
+        "completed_in": 0.05,
+        "max_id": 0,
+        "max_id_str": "0",
+        "next_results": "?max_id=1047843021075763199&q=Peek&include_entities=1&result_type=popular",
+        "query": "Peek",
+        "count": 15,
+        "since_id": 0,
+        "since_id_str": "0"
+    }
+}

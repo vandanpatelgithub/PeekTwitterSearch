@@ -41,7 +41,7 @@ struct User: Codable {
 }
 
 struct SearchMetadata: Codable {
-    let nextResults: String
+    let nextResults: String?
 
     private enum CodingKeys: String, CodingKey {
         case nextResults = "next_results"

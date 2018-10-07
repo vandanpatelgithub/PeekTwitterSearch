@@ -9,7 +9,7 @@
 import Foundation
 
 public enum TweetSearchAPI {
-    case popularTweets(searchText: String, resultType: ResultType)
+    case popularTweets(searchText: String, resultType: ResultType, nextResults: String?)
 }
 
 public enum ResultType: String {
@@ -33,8 +33,12 @@ extension TweetSearchAPI: EndPointType {
 
     var path: String {
         switch self {
-        case let .popularTweets(searchText, resultType):
-            return "?\(SearchKey.q.rawValue)=\(searchText)&\(SearchKey.result_type.rawValue)=\(resultType.rawValue)"
+        case let .popularTweets(searchText, resultType, nextResults):
+            if let next = nextResults, !next.isEmpty {
+                return "\(next)"
+            } else {
+                return "?\(SearchKey.q.rawValue)=\(searchText)&\(SearchKey.result_type.rawValue)=\(resultType.rawValue)"
+            }
         }
     }
 
