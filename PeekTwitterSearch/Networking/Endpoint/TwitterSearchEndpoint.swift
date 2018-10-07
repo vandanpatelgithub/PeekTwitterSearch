@@ -8,8 +8,12 @@
 
 import Foundation
 
+private let APIKEY       = "ePabCwc1Lt6ffveIwLJ6czDcC"
+private let APISECRETKEY = "ZC3JIyGVwemdS5p8NOwfYHeZeFZM3ilUdjHPd7NM3JxNA0LjpT"
+
 public enum TweetSearchAPI {
     case popularTweets(searchText: String, resultType: ResultType, nextResults: String?)
+    case imageData(imageURL: String)
 }
 
 public enum ResultType: String {
@@ -21,6 +25,7 @@ public enum SearchKey: String {
 }
 
 extension TweetSearchAPI: EndPointType {
+
     var baseURL: URL {
         switch self {
         case .popularTweets:
@@ -28,30 +33,34 @@ extension TweetSearchAPI: EndPointType {
                 fatalError("Base url couldn't be configured")
             }
             return url
+        case let .imageData(imageURL):
+            guard let url = URL(string: imageURL) else {
+                fatalError("Base url couldn't be configured")
+            }
+            return url
         }
     }
 
-    var path: String {
+    var path: String? {
         switch self {
-        case let .popularTweets(searchText, resultType, nextResults):
-            if let next = nextResults, !next.isEmpty {
-                return "\(next)"
-            } else {
-                return "?\(SearchKey.q.rawValue)=\(searchText)&\(SearchKey.result_type.rawValue)=\(resultType.rawValue)"
-            }
+        case .imageData, .popularTweets:
+            return nil
         }
     }
 
     var httpMethod: HTTPMethod {
         switch self {
-        case .popularTweets:
+        case .popularTweets, .imageData:
             return .get
         }
     }
 
     var task: HTTPTask {
         switch self {
-        case .popularTweets:
+        case let .popularTweets(searchText, resultType, _):
+            let urlParameters = [ "q": searchText, "result_type": resultType.rawValue]
+            return .requestParametersAndHeaders(bodyParameters: nil, urlParameters: urlParameters, additionalHeaders: headers)
+        case .imageData:
             return .request
         }
     }
@@ -59,6 +68,14 @@ extension TweetSearchAPI: EndPointType {
     var headers: HTTPHeaders? {
         switch self {
         case .popularTweets:
+            return [
+                "Authorization" :
+                """
+                OAuth oauth_consumer_key="ePabCwc1Lt6ffveIwLJ6czDcC",oauth_consumer_secret_key="ZC3JIyGVwemdS5p8NOwfYHeZeFZM3ilUdjHPd7NM3JxNA0LjpT",
+                oauth_signature_method="HMAC-SHA1"
+                """.addEncoding()
+            ]
+        case .imageData:
             return nil
         }
     }

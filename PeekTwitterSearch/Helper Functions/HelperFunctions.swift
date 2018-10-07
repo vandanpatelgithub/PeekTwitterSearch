@@ -17,3 +17,9 @@ func getJSONData(forResource resource: String, ofType type: String) -> Data? {
         return nil
     }
 }
+
+extension String {
+    func addEncoding() -> String {
+        return addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) ?? ""
+    }
+}

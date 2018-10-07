@@ -13,30 +13,31 @@ class LandingViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
 
     let cellIdentifier = "tweetCell"
-    let tweetViewModel = [TweetViewModel]()
+    var tweetViewModel = [TweetViewModel]()
     let networkManager = NetworkManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableFooterView = UIView()
-        networkManager.getPopularTweets(for: "Peek", and: .popular, nextResults: nil) { (tweetResult, error) in
-            if error != nil {
+        guard let theData = getJSONData(forResource: "StubbedTweetSearchResponse", ofType: "json") else { return }
+        let tweetSearchResult = try? JSONDecoder().decode(TweetSearchResult.self, from: theData)
+        tweetViewModel = tweetSearchResult?.statuses.map( { return TweetViewModel(status: $0) } ) ?? []
+        tableView.reloadData()
 
-            }
-        }
     }
 }
 
 // MARK: Tableview DataSource
 extension LandingViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return tweetViewModel.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? TweetCell else {
             return UITableViewCell()
         }
+        cell.tweetViewModel = tweetViewModel[indexPath.row]
         return cell
     }
 }

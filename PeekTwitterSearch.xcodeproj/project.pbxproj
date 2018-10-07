@@ -219,10 +219,10 @@
 		070DF4D12169870B00885CAF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				070DF4D6216990D700885CAF /* TweetCell.swift */,
 				070DF48B2169453600885CAF /* Main.storyboard */,
 				070DF4902169453800885CAF /* LaunchScreen.storyboard */,
 				070DF48E2169453800885CAF /* Assets.xcassets */,
-				070DF4D6216990D700885CAF /* TweetCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

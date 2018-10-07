@@ -11,8 +11,11 @@ import UIKit
 class TweetCell: UITableViewCell {
 
     @IBOutlet weak var profileImageView: UIImageView!
-    @IBOutlet weak var usernameTextField: UITextField!
-    @IBOutlet weak var tweetTextView: UITextView!
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var tweetLabel: UILabel!
+
+    let networkManager = NetworkManager()
+
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -20,9 +23,15 @@ class TweetCell: UITableViewCell {
 
     var tweetViewModel: TweetViewModel! {
         didSet {
-            profileImageView.image = tweetViewModel.profileImage
-            usernameTextField.text = tweetViewModel.username
-            tweetTextView.text     = tweetViewModel.tweetText
+            usernameLabel.text     = tweetViewModel.username
+            tweetLabel.text        = tweetViewModel.tweetText
+            networkManager.getImageData(for: tweetViewModel.imageURL) { [weak self] (data, error) in
+                guard let theData = data else {
+                    DispatchQueue.main.async { self?.profileImageView.image = UIImage() }
+                    return
+                }
+                DispatchQueue.main.async { self?.profileImageView.image = UIImage(data: theData) }
+            }
         }
     }
 

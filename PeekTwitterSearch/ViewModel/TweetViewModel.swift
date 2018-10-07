@@ -11,12 +11,12 @@ import UIKit
 struct TweetViewModel {
     let tweetText: String
     let username: String
-    let profileImage: UIImage
+    let imageURL: String
 
     init(status: Status) {
         self.tweetText = status.tweetText
         self.username = status.user.screenName
-        self.profileImage = UIImage()
+        self.imageURL = status.user.imageURL
     }
 }
 
