@@ -12,6 +12,7 @@ class LandingViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
 
+    var networkManager: NetworkManager?
     let cellIdentifier = "tweetCell"
     let tweetViewModel = [TweetViewModel]()
     
