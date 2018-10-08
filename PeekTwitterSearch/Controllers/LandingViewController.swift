@@ -47,4 +47,13 @@ extension LandingViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 118.0
     }
+
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        cell.transform = CGAffineTransform(translationX: -250, y: 0)
+        cell.alpha = 0.0
+        UIView.animate(withDuration: 0.6) {
+            cell.transform = .identity
+            cell.alpha = 1.0
+        }
+    }
 }
